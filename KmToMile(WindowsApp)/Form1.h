@@ -100,6 +100,7 @@ namespace KmToMileWindowsApp {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(126, 20);
 			this->textBox1->TabIndex = 1;
+			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Form1::textBox1_TextChanged);
 			// 
 			// textBox2
 			// 
@@ -107,6 +108,7 @@ namespace KmToMileWindowsApp {
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(117, 20);
 			this->textBox2->TabIndex = 2;
+			this->textBox2->TextChanged += gcnew System::EventHandler(this, &Form1::textBox2_TextChanged);
 			// 
 			// button2
 			// 
@@ -144,6 +146,7 @@ namespace KmToMileWindowsApp {
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(126, 20);
 			this->textBox3->TabIndex = 6;
+			this->textBox3->TextChanged += gcnew System::EventHandler(this, &Form1::textBox3_TextChanged);
 			// 
 			// label3
 			// 
@@ -171,6 +174,7 @@ namespace KmToMileWindowsApp {
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(126, 20);
 			this->textBox4->TabIndex = 6;
+			this->textBox4->TextChanged += gcnew System::EventHandler(this, &Form1::textBox4_TextChanged);
 			// 
 			// button3
 			// 
@@ -290,6 +294,26 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, Sy
 				 this->button4->Text = L"Обратно перевести";
 				 this->button5->Text = L"Обратно перевести";
 			 }
+		 }
+private: System::Void textBox1_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+			double a;
+			a = System::Convert::ToDouble(textBox1->Text) * 0.621371;
+		    this->textBox3->Text = System::Convert::ToString(a);
+		 }
+private: System::Void textBox2_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+			double a;
+			a = System::Convert::ToDouble(textBox2->Text) * 3.28084;
+			this->textBox4->Text = System::Convert::ToString(a);
+		 }
+private: System::Void textBox3_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+			double a;
+			a = System::Convert::ToDouble(textBox3->Text) / 0.621371;
+			this->textBox1->Text = System::Convert::ToString(a);
+		 }
+private: System::Void textBox4_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+			double a;
+			a = System::Convert::ToDouble(textBox4->Text) / 3.28084;
+			this->textBox2->Text = System::Convert::ToString(a);
 		 }
 };
 }
