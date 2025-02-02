@@ -82,7 +82,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.ico" />
+    <None Include="..\..\..\..\..\pictures\Снимок экрана 2023-05-14 203802.png" />
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
