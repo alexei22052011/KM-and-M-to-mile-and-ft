@@ -1,12 +1,13 @@
-﻿Построение начато 02.02.2025 16:45:28.
+﻿Построение начато 02.02.2025 17:47:26.
      1>Проект "E:\documents\C++\Другое\KmToMile(WindowsApp)\KmToMile(WindowsApp)\KmToMile(WindowsApp).vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Создание "Release\KmToMile(WindowsApp).unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Release\KmToMile(WindowsApp).unsuccessfulbuild".
        GenerateTargetFrameworkMonikerAttribute:
        Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
        ClCompile:
          Для всех выходных данных обновления не требуется.
-         Для всех выходных данных обновления не требуется.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\KmToMile(WindowsApp).pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "KmToMile(WindowsApp).cpp" /clr:nostdlib 
+         KmToMile(WindowsApp).cpp
          Для всех выходных данных обновления не требуется.
        CoreResGen:
          Отсутствуют ресурсы, устаревшие по отношению к файлам своих источников. Пропуск формирования ресурсов.
@@ -28,4 +29,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.17
+Затраченное время: 00:00:00.49
