@@ -267,7 +267,7 @@ private: System::Void button5_Click(System::Object^  sender, System::EventArgs^ 
 			this->textBox2->Text = System::Convert::ToString(a);
 		 }
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
-			 if (comboBox1->SelectedItem == "English") {
+			 if (comboBox1->SeelectedItem == "English") {
 				 this->Text = L"KM, M to Mile, Foot";
 				 this->label1->Text = L"Kilometers";
 				 this->label2->Text = L"Meters";
@@ -293,4 +293,3 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, Sy
 		 }
 };
 }
-
