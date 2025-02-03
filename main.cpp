@@ -1,16 +1,5 @@
-#include <stdio.h>
-#include <iostream>
-#include <cstdlib>
-using namespace std;
+#include "../../../libs/convert.h"
 int main()
 {
-    setlocale(LC_ALL, "rus");
-    double a,b;
-    printf("Введите число в километрах: ");
-    cin >> a;
-    printf("Введите число в метрах: ");
-    cin >> b;
-    const double ca = 0.621371, cb = 3.28084, ra = ca * a, rb = cb * b;
-    cout << "Мили: " << ra << "\nФуты: " << rb << endl;
-    system("pause");
+   convert(0.621371,3.28084, "Введите число в километрах: ", "Введите число в метрах: ","Мили: ","Футы: ");
 }
